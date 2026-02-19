@@ -56,5 +56,5 @@ If you clone the code, make sure to keep the `resources/` folder with the `app_i
 ## 📦 Download Executable (Windows)
 If you just want to use the application without installing Python or running any code, you can download the standalone version here:
 
-* [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v1.0.0/UserManagementApp.v1.0.exe?download=) 
+* [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v1.0.0/UserManagementApp.v1.0.exe) 
 > **Note:** Some browsers or antiviruses may flag the file as "unrecognized" because it is a custom-built executable. You can safely run it by clicking "More info" -> "Run anyway"
