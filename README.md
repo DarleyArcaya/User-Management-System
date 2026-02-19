@@ -23,18 +23,12 @@ The application uses a layered workflow to ensure that each part of the code has
 
 -db/: Folder where the persistent database file is stored.
 
-## 🚀 Installation and Use
+## 🚀 Instalación y Uso
 * 1-Clone this repository to your local machine.
 
 * 2-Make sure you have Python installed (version 3.x recommended).
 
 * 3-Run the root file: 'main.py'
-
-## 📦 Download Executable (Windows)
-If you just want to use the application without installing Python or running any code, you can download the standalone version here:
-
-* [**Download UserManagementApp.exe**](#) 
-> **Note:** Some browsers or antiviruses may flag the file as "unrecognized" because it is a custom-built executable. You can safely run it by clicking "More info" -> "Run anyway".
 
 ## ✅ Main Features
 * Error Prevention: Alert messages if you try to save empty fields or invalid emails.
@@ -57,3 +51,10 @@ The application is completely self-contained:
 
 ## 🛠️ Developer Requirements
 If you clone the code, make sure to keep the `resources/` folder with the `app_icon.ico` file so that the project compiles correctly.
+
+
+## 📦 Download Executable (Windows)
+If you just want to use the application without installing Python or running any code, you can download the standalone version here:
+
+* [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v1.0.0/UserManagementApp.v1.0.exe?download=) 
+> **Note:** Some browsers or antiviruses may flag the file as "unrecognized" because it is a custom-built executable. You can safely run it by clicking "More info" -> "Run anyway"
