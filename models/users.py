@@ -80,3 +80,12 @@ def delete_user(user_name):
     cursor.execute('''DELETE FROM users WHERE name = ?''', (user_name,))
     conn.commit()
     conn.close()
+
+# We implement a search function that allows us to find users by name, email, or role using a LIKE query for partial matches.
+def search_users(name_query):
+    conn = sql.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute('''SELECT * FROM users WHERE name LIKE ? OR email LIKE ? OR role LIKE ?''', (f'%{name_query}%')) # We use wildcards (%) to allow for partial matches in the search query
+    rows = cursor.fetchall()
+    conn.close()
+    return [User(*user) for user in rows] # We return a list of User objects using tuple unpacking (*)

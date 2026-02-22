@@ -1,10 +1,12 @@
 # 👤 User Management App
 This project is a desktop application designed to efficiently manage user records. It implements a modular architecture that separates the graphical interface, business logic, and data persistence, ensuring clean and scalable code.
 
+**>>⚠️ Important Note:** The current Flet-based version (**v2.2.3**) is located in the `feature/v2.2.3-flet-migration` branch. The legacy Tkinter version remains in the `main` branch.
+
 ## 🛠️ How it is built
 The application uses a layered workflow to ensure that each part of the code has a single responsibility:
 
-* -User Interface (GUI): Developed with Tkinter, it allows smooth interaction to create, view, and delete records.
+* -User Interface (GUI): Rebuilt with Flet (Flutter-based framework) to provide a modern, responsive, and cross-platform experience.
 
 * -Data Management: Uses SQLite3 as a relational database engine, allowing information to be retained even after closing the app.
 
@@ -23,12 +25,13 @@ The application uses a layered workflow to ensure that each part of the code has
 
 -db/: Folder where the persistent database file is stored.
 
-## 🚀 Instalación y Uso
-* 1-Clone this repository to your local machine.
-
-* 2-Make sure you have Python installed (version 3.x recommended).
-
-* 3-Run the root file: 'main.py'
+## 🚀 Installation and Setup
+1. **Clone the repository:**
+   `git clone https://github.com/YourUser/User-Management-System.git`
+2. **Install dependencies:**
+   `pip install -r requirements.txt`
+3. **Run the application:**
+   `python main.py`
 
 ## ✅ Main Features
 * Error Prevention: Alert messages if you try to save empty fields or invalid emails.
@@ -56,5 +59,5 @@ If you clone the code, make sure to keep the `resources/` folder with the `app_i
 ## 📦 Download Executable (Windows)
 If you just want to use the application without installing Python or running any code, you can download the standalone version here:
 
-* [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v1.0.0/UserManagementApp.v1.0.exe) 
+* [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v2.2.3/UserManagementApp.V2.2.3.exe) 
 > **Note:** Some browsers or antiviruses may flag the file as "unrecognized" because it is a custom-built executable. You can safely run it by clicking "More info" -> "Run anyway"

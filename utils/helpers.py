@@ -17,3 +17,4 @@ def normalize_text(text):
     #we clean the text: we remove extra spaces and convert it to lowercase.
     #This way, 'User' and 'user' will be treated as the same user.
     return text.strip().lower()
+
