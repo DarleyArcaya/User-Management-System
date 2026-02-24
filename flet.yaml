@@ -1,0 +1,9 @@
+package:
+  product: "User Management System"
+  organization: "com.darley"
+  version: "2.2.3"
+  build_number: 1
+  assets_dir: assets  # <-- Verifica que esté bien indentado
+  android:
+    package_name: "com.darley.usermanagement"
+    icon: "app_icon.png"

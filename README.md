@@ -56,8 +56,9 @@ The application is completely self-contained:
 If you clone the code, make sure to keep the `resources/` folder with the `app_icon.ico` file so that the project compiles correctly.
 
 
-## 📦 Download Executable (Windows)
+## 📦 Download Executable (Windows - Android)
 If you just want to use the application without installing Python or running any code, you can download the standalone version here:
 
 * [**Download UserManagementApp.exe**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v2.2.3/UserManagementApp.V2.2.3.exe) 
+* [**Download UserManagementApp.apk**](https://github.com/DarleyArcaya/User-Management-System/releases/download/v2.2.3/UserManagementApp.V2.2.3.apk)
 > **Note:** Some browsers or antiviruses may flag the file as "unrecognized" because it is a custom-built executable. You can safely run it by clicking "More info" -> "Run anyway"
