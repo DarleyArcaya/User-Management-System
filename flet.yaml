@@ -1,0 +1,13 @@
+# Configuración profesional para UserManagementApp
+package:
+  product: "User Management System"
+  organization: "com.darley"
+  version: "2.2.3"
+  build_number: 1
+  
+  # Usamos tu carpeta de recursos
+  assets_dir: "assets"
+  
+  android:
+    package_name: "com.darley.usermanagement"
+    icon: "app_icon.ico"

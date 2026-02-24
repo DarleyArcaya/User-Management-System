@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+db/*.db
+
+
+.vscode/
+.idea/
+
+gui/main_window_tkinter.py
